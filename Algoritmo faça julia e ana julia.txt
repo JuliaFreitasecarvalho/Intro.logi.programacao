@@ -1,0 +1,82 @@
+Algoritmo "idades"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Professor   : Larissa
+// Descrição   : ler a idade de várias pessoas e calcula media da idade quando
+// Autor(a)    : Ana Julia e Júlia
+// Data atual  : 16/09/2024
+Var
+// Seção de Declarações das variáveis 
+idade,cont:inteiro
+media:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreval("insira a idade, para parar de inserir, insira 0")
+   leia(idade)
+   enquanto idade >0 faca
+        cont:= cont+1
+        media := media+idade
+        escreval("insira a idade")
+        leia (idade)
+
+   fimenquanto
+   escreval("foram lidas ",cont)
+   media:=media/cont
+   escreval("média é", media)
+
+Fimalgoritmo
+
+Algoritmo "dobro"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Professor   : Larissa
+// Descrição   : ler um sequencia de numeros do usuario e escreva o dobrode cada numero lido encerrar quando o numero dgitado for negativo
+// Autor(a)    : Ana Julia e Júlia
+// Data atual  : 16/09/2024
+Var
+// Seção de Declarações das variáveis 
+ dobro , numero:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    escreval ("insira os numeros, para terminar insira um numero negatio")
+    leia(numero)
+               enquanto numero >=0 faca
+               dobro:= numero*2
+               escreval("o valor do dobro de", numero, " é:",dobro)
+               escreval("insira um numero")
+               leia(numero)
+    fimenquanto
+Fimalgoritmo
+
+Algoritmo "login e senha"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Professor   : Larissa
+// Descrição   : solicitar ao usuario login e senha,
+//caso login e senha errados pedirpara inserir novamente,
+//caso certo exibir a mensagem"bem vindo ao sistema"
+//login:adim senha:admin123
+// Autor(a)    : Ana Julia e Júlia
+// Data atual  : 16/09/2024
+Var
+// Seção de Declarações das variáveis 
+login,senha,admin,admin123:caractere
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+login:="admin"
+senha:="admin123"
+escreval("insira login")
+leia(login)
+escreval("insira senha")
+leia(senha)
+           enquanto (login <> "admin") ou (senha <> "admin123") faca
+           Escreval ("login ou senha incorretos")
+           escreval("insira login e senha novamente")
+           leia(login)
+           leia(senha)
+           
+           fimenquanto
+           escreval ("bem vindo ao sistema")
+Fimalgoritmo
+

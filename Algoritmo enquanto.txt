@@ -1,0 +1,109 @@
+Algoritmo "semnome"
+// Disciplina   : [Introdução a Lógica da Programação]
+// Professor   : Larissa
+// Descrição   : Calcular a soma de 1 a 20
+// Autor(a)    : Júlia Freitas e Carvalho
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis 
+contador, soma: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+contador <- 1
+Enquanto contador <=20 faca
+Soma <- soma + contador
+contador <- contador + 1
+Escreval ("O valor da soma é:", soma)
+Fimenquanto
+
+Fimalgoritmo
+
+
+______________________________________________________________________
+
+
+Algoritmo "semnome"
+// Disciplina   : [Introdução a Lógica da Programação]
+// Professor   : Larissa
+// Descrição   : Calcular a soma de 1 a 20
+// Autor(a)    : Júlia Freitas e Carvalho
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis 
+contador, par: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+contador <- 1
+
+Enquanto contador <=20 faca
+par<- contador%2
+
+se par=0 então
+escreval (contador, "É par!")
+fimse
+contador <- contador + 1
+fimenquanto
+
+Fimalgoritmo
+
+______________________________________________________________________
+
+Algoritmo "semnome"
+// Disciplina   : [Introdução a Lógica da Programação]
+// Professor   : Larissa
+// Descrição   : Calcular fatorial
+// Autor(a)    : Júlia Freitas e Carvalho
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis 
+numero, fatorial : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+fatorial <- 1
+escreval("digite o valor que deseja saber o fatorial")
+leia (numero)
+
+enquanto numero>=1 faca
+fatorial<- fatorial*numero
+numero<-numero - 1
+
+escreval("O resultado é", fatorial)
+fimenquanto
+
+Fimalgoritmo
+
+______________________________________________________________________
+
+
+Algoritmo "semnome"
+// Disciplina   : [Introdução a Lógica da Programação]
+// Professor   : Larissa
+// Descrição   : Calcular media de 10 números
+// Autor(a)    : Júlia Freitas e Carvalho
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis 
+soma, nota, media: real
+contador: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+contador<- 1
+
+enquanto contador <=10 faca
+escreval("insira anota")
+leia (nota)
+soma <- soma + nota
+
+contador <- contador+1
+fimenquanto
+
+media <- soma/10
+Escreval ("A media dos valores inseridos são:", media)
+
+Fimalgoritmo
